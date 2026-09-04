@@ -35,15 +35,16 @@ que se desvían del comportamiento promedio del consumidor.
 ```
 ├── data/                  # Dataset 
 ├── notebooks/             # Análisis exploratorio y modelado
-├── src/                   # Scripts de preprocesamiento y modelos
 └── README.md
+└── requirements.txt       #herramientas
 ```
 
 ## Cómo ejecutar
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook notebooks/analisis.ipynb
+pip install jupyter
+jupyter notebook notebooks/Market.ipynb
 ```
 
 ##  Dataset
