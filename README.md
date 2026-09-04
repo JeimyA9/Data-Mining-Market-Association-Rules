@@ -42,7 +42,7 @@ que se desvían del comportamiento promedio del consumidor.
 ## Cómo ejecutar
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements-market.txt
 pip install jupyter
 jupyter notebook notebooks/Market.ipynb
 ```
